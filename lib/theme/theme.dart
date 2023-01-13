@@ -1,0 +1,66 @@
+import 'package:flutter/material.dart';
+import 'package:partice_project/constant/colors.dart';
+import 'package:partice_project/constant/fonts.dart';
+
+final appTheme = ThemeData(
+    primarySwatch: AppColors.primaryMaterialColor,
+    scaffoldBackgroundColor: AppColors.whiteColor,
+    appBarTheme: const AppBarTheme(
+        color: AppColors.whiteColor,
+        centerTitle: true,
+        titleTextStyle: TextStyle(
+            fontSize: 22,
+            fontFamily: AppFonts.latoRegular,
+            color: AppColors.primaryColor)),
+    textTheme: const TextTheme(
+      headline1: TextStyle(
+          fontSize: 40,
+          fontFamily: AppFonts.latoRegular,
+          color: AppColors.primaryTextTextColor,
+          fontWeight: FontWeight.w500,
+          height: 1.6),
+      headline2: TextStyle(
+          fontSize: 32,
+          fontFamily: AppFonts.latoRegular,
+          color: AppColors.textPrimary,
+          fontWeight: FontWeight.w500,
+          height: 1.6),
+      headline3: TextStyle(
+          fontSize: 28,
+          fontFamily: AppFonts.latoRegular,
+          color: AppColors.textPrimary,
+          fontWeight: FontWeight.w500,
+          height: 1.6),
+      headline4: TextStyle(
+          fontSize: 24,
+          fontFamily: AppFonts.latoRegular,
+          color: AppColors.textPrimary,
+          fontWeight: FontWeight.w500,
+          height: 1.6),
+      headline5: TextStyle(
+          fontSize: 20,
+          fontFamily: AppFonts.latoRegular,
+          color: AppColors.textPrimary,
+          fontWeight: FontWeight.w500,
+          height: 1.6),
+      headline6: TextStyle(
+          fontSize: 17,
+          fontFamily: AppFonts.latoBold,
+          color: AppColors.textPrimary,
+          height: 1.6),
+      bodyText1: TextStyle(
+          fontSize: 17,
+          fontFamily: AppFonts.latoRegular,
+          color: AppColors.textPrimary,
+          height: 1.6),
+      bodyText2: TextStyle(
+          fontSize: 14,
+          fontFamily: AppFonts.latoRegular,
+          color: AppColors.textPrimary,
+          height: 1.6),
+      caption: TextStyle(
+          fontSize: 12,
+          fontFamily: AppFonts.latoBold,
+          color: AppColors.textPrimary,
+          height: 2.26),
+    ));
